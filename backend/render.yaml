@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: phishing-detector-api
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt && python train_model.py"
+    startCommand: "gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120"
+    envVars:
+      - key: CLIENT_URL
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.11.9

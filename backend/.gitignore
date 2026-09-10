@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
+
+# Trained model artifacts - regenerated at build time from
+# ../phishing_site_urls.csv by train_model.py (see render.yaml).
+model/phishing_url_model.pkl
+model/model_metrics.json

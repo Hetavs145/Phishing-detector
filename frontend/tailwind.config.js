@@ -7,16 +7,29 @@ export default {
   theme: {
     extend: {
       colors: {
-        'cyber-blue': '#00f5ff',
-        'cyber-green': '#00ff41',
-        'cyber-pink': '#ff0080',
-        'cyber-purple': '#8b5cf6',
-        'dark-bg': '#0a0a0a',
-        'dark-card': '#1a1a1a',
+        slate: {
+          950: '#06090E',
+          900: '#0A0F17',
+          800: '#111824',
+          700: '#1B2436',
+          600: '#27344D',
+        },
+        radar: {
+          cyan: '#06B6D4',
+          emerald: '#10B981',
+          crimson: '#EF4444',
+          amber: '#F59E0B',
+        },
+        'dark-bg': '#0A0F17',
+        'dark-card': '#111824',
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        mono: ['JetBrains Mono', 'Menlo', 'monospace'],
       },
       animation: {
         'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        'bounce-slow': 'bounce 2s infinite',
+        'scan': 'scan 4s linear infinite',
       }
     },
   },
