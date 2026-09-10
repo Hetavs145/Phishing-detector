@@ -14,8 +14,8 @@ const Dashboard = () => {
             Welcome to PhishGuard
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Protect yourself from phishing attacks with our advanced AI-powered URL detection system. 
-            Our model has a 90% accuracy rate in identifying malicious websites.
+            Protect yourself from phishing attacks with our advanced AI-powered URL detection system.
+            Our model has an 89.8% accuracy rate in identifying malicious websites.
           </p>
         </motion.div>
 
@@ -54,7 +54,7 @@ const Dashboard = () => {
             <div className="text-4xl mb-4">🎯</div>
             <h3 className="text-xl font-semibold text-cyber-pink mb-2">High Accuracy</h3>
             <p className="text-gray-300">
-              Trained on 549,346 URLs with 89% accuracy in detecting malicious websites.
+              Trained on 549,346 URLs with 89.8% accuracy in detecting malicious websites.
             </p>
           </div>
         </motion.div>

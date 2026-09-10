@@ -18,7 +18,7 @@ const Footer = () => {
               </h3>
               <p className="text-gray-400 mb-6 max-w-md">
                 Advanced phishing detection powered by machine learning. 
-                Protect yourself from malicious websites with 90% accuracy.
+                Protect yourself from malicious websites with 89.8% accuracy.
               </p>
               <div className="flex space-x-4">
                 <div className="w-8 h-8 bg-cyber-blue/20 rounded-lg flex items-center justify-center">

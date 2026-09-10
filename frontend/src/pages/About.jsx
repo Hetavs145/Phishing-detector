@@ -57,7 +57,7 @@ const About = () => {
                   <h3 className="text-xl font-semibold text-white mb-2">Machine Learning Detection</h3>
                   <p className="text-gray-300">
                     Our Decision Tree model processes the extracted features to identify phishing patterns 
-                    with 89% accuracy.
+                    with 89.8% accuracy.
                   </p>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const About = () => {
                 <ul className="space-y-2 text-gray-300">
                   <li>• Decision Tree Classifier</li>
                   <li>• Trained on 549,346 URLs</li>
-                  <li>• 90% accuracy rate</li>
+                  <li>• 89.8% accuracy rate</li>
                   <li>• Real-time processing</li>
                 </ul>
               </div>

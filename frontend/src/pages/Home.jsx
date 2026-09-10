@@ -25,11 +25,10 @@ export default function Home() {
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
             <span className="text-slate-300 font-semibold">MODEL CORE:</span>
-            <span>Decision Tree v2.4 (549,346 Validated Records)</span>
+            <span>Decision Tree (549,346 Validated Records)</span>
           </div>
           <div className="hidden sm:flex items-center gap-6">
-            <span>INSPECTION LATENCY: &lt;45ms</span>
-            <span>VECTOR COVERAGE: 19 FEATURES</span>
+            <span>VECTOR COVERAGE: 18 FEATURES</span>
             <span className="text-radar-cyan font-semibold">STATUS: SECURE</span>
           </div>
         </div>
@@ -63,11 +62,11 @@ export default function Home() {
               {/* Key Specs */}
               <div className="grid grid-cols-2 gap-3 pt-2">
                 <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
-                  <div className="text-2xl font-bold font-mono text-white">90.2%</div>
+                  <div className="text-2xl font-bold font-mono text-white">89.8%</div>
                   <div className="text-xs text-slate-400 font-mono mt-0.5">Decision Tree Accuracy</div>
                 </div>
                 <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
-                  <div className="text-2xl font-bold font-mono text-radar-cyan">19 Vectors</div>
+                  <div className="text-2xl font-bold font-mono text-radar-cyan">18 Vectors</div>
                   <div className="text-xs text-slate-400 font-mono mt-0.5">Live Feature Extraction</div>
                 </div>
               </div>
@@ -150,7 +149,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg font-bold text-white mb-2">Tree-Based ML Decision Weights</h3>
               <p className="text-xs text-slate-400 leading-relaxed font-mono">
-                Evaluates branch conditions across 19 engineered features to yield binary classification and calibrated probability confidence intervals.
+                Evaluates branch conditions across 18 engineered features to yield binary classification and calibrated probability confidence intervals.
               </p>
             </div>
           </div>
